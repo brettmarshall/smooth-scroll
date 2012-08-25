@@ -37,7 +37,6 @@ jQuery(document).ready(function($)	{
 				});
 		}, // end of scroll
 		
-		  //change here
 		
 		AutoDetect: function(speed)	{
 			
