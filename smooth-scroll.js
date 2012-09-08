@@ -28,7 +28,7 @@ jQuery(document).ready(function($)	{
 			speed = speed || 300;
 			
 				// when the item is clicked
-				button.click(function() {
+			return	button.click(function() {
 					// grab the html document and / or the body
 					$("html, body").animate({
 					// grab the item clicked's href and get the distance between this element
@@ -88,7 +88,7 @@ jQuery(document).ready(function($)	{
 						
 			smooth_button.attr('href', '#smoothScroll-landing');
 				// when the item is clicked
-				smooth_button.click(function() {
+				return smooth_button.click(function() {
 					// grab the html document and / or the body
 					$("html, body").animate({
 					// grab the item clicked's href and get the distance between this element
