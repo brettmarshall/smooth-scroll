@@ -14,6 +14,10 @@ jQuery(document).ready(function($)	{
 		// using this method, you need to specify the element you want to trigger the animation, the landing spot for the animation, and the speed of the scroll
 		Manual: function(button, landing, speed)	{
 			
+			// wraps the variables in the jQuery Object
+			button = $(button);
+			landing = $(landing);
+			
 			// take the clickable element (a tag) and add #smoothScroll-landing to the href
 			button.attr('href', '#smoothScroll-landing');
 			// the default location of the landing spot will be html if not specified.
